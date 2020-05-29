@@ -73,10 +73,10 @@ music = '''{
     \tuplet 3/2 { ees e g }
     a2. |
 }'''
-pageBreak = true
 
 #-------------------------------------------------------------------------------
 [exercise_5]
+pageBreakBefore = true
 staffRelative = "a"
 tabRelative = "a"
 tabMinimumFret = "#3"

@@ -81,15 +81,18 @@ function getExercise(name, index, object) {
   if (typeof object !== 'object') return
 
   const { staffRelative, tabRelative, tabMinimumFret, music } = object
+  let { pageBreakBefore, pageBreakAfter } = object
   const varName = `music${toRoman(index)}`
 
   if (staffRelative == null) return log(`exercise "${name}" is missing key staffRelative`)
   if (tabRelative == null) return log(`exercise "${name}" is missing key tabRelative`)
   if (tabMinimumFret == null) return log(`exercise "${name}" is missing tabMinimumFret`)
   if (music == null) return log(`exercise "${name}" is missing key music`)
+  pageBreakBefore = !!pageBreakBefore
+  pageBreakAfter = !!pageBreakAfter
 
   name = name.replace(/_/g, ' ')
-  return { name, staffRelative, tabRelative, tabMinimumFret, music, varName }
+  return { name, staffRelative, tabRelative, tabMinimumFret, music, varName, pageBreakBefore, pageBreakAfter }
 }
 
 function version() {

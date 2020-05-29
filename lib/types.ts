@@ -13,4 +13,6 @@ export interface Exercise {
   tabRelative: string
   tabMinimumFret: string
   music: string
+  pageBreakBefore: boolean
+  pageBreakAfter: boolean
 }
