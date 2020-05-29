@@ -1,0 +1,28 @@
+{
+  "name": "tomlyx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TOML sourced LilYpond generated music eXercises",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/pmuellr/tomlyx",
+  "main": "./tomlyx.js",
+  "bin": {
+    "tomlyx": "./tomlyx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/tomlyx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/tomlyx/issues"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "roman-numerals": "^0.3.2",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
