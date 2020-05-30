@@ -41,10 +41,26 @@ musicI = {
 \score {
   <<
     \new Staff {
+      \override TabNoteHead.color       = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
       \clef "treble"
       \relative a' { \musicI }
     }
     \new TabStaff {
+      \override TabNoteHead.color       = #blue
+      \override StringNumberEvent.color = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
+      \clef moderntab
       \set TabStaff.minimumFret = #3
       \set TabStaff.restrainOpenStrings = ##t      
       \relative a { \musicI }
@@ -73,10 +89,26 @@ musicII = {
 \score {
   <<
     \new Staff {
+      \override TabNoteHead.color       = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
       \clef "treble"
       \relative a' { \musicII }
     }
     \new TabStaff {
+      \override TabNoteHead.color       = #blue
+      \override StringNumberEvent.color = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
+      \clef moderntab
       \set TabStaff.minimumFret = #3
       \set TabStaff.restrainOpenStrings = ##t      
       \relative a { \musicII }
@@ -104,10 +136,26 @@ musicIII = {
 \score {
   <<
     \new Staff {
+      \override TabNoteHead.color       = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
       \clef "treble"
       \relative a' { \musicIII }
     }
     \new TabStaff {
+      \override TabNoteHead.color       = #blue
+      \override StringNumberEvent.color = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
+      \clef moderntab
       \set TabStaff.minimumFret = #5
       \set TabStaff.restrainOpenStrings = ##t      
       \relative a { \musicIII }
@@ -139,10 +187,26 @@ musicIV = {
 \score {
   <<
     \new Staff {
+      \override TabNoteHead.color       = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
       \clef "treble"
       \relative a'' { \musicIV }
     }
     \new TabStaff {
+      \override TabNoteHead.color       = #blue
+      \override StringNumberEvent.color = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
+      \clef moderntab
       \set TabStaff.minimumFret = #3
       \set TabStaff.restrainOpenStrings = ##t      
       \relative a' { \musicIV }
@@ -166,10 +230,26 @@ musicV = {
 \score {
   <<
     \new Staff {
+      \override TabNoteHead.color       = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
       \clef "treble"
       \relative a { \musicV }
     }
     \new TabStaff {
+      \override TabNoteHead.color       = #blue
+      \override StringNumberEvent.color = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
+      \clef moderntab
       \set TabStaff.minimumFret = #3
       \set TabStaff.restrainOpenStrings = ##t      
       \relative a { \musicV }
@@ -194,10 +274,26 @@ musicVI = {
 \score {
   <<
     \new Staff {
+      \override TabNoteHead.color       = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
       \clef "treble"
       \relative d''' { \musicVI }
     }
     \new TabStaff {
+      \override TabNoteHead.color       = #blue
+      \override StringNumberEvent.color = #blue
+      \override NoteHead.color          = #blue
+      \override Stem.color              = #blue
+      \override Staff.StaffSymbol.color = #green
+      \override Beam.color              = #blue
+      \override Accidental.color        = #blue
+      \override Clef.color              = #red
+      \clef moderntab
       \set TabStaff.minimumFret = #3
       \set TabStaff.restrainOpenStrings = ##t      
       \relative d'' { \musicVI }
