@@ -76,7 +76,7 @@ function getExercises(fileName) {
   return exercises
 }
 
-/** @type { (name: string, index: number, object: any) => undefined | Exercise } */
+/** @type { (name: string, index: number, object: any) => void | Exercise } */
 function getExercise(name, index, object) {
   if (typeof object !== 'object') return
 

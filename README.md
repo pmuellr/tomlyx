@@ -41,6 +41,21 @@ install
     npm -g pmuellr/tomlyx
 
 
+typescript typing in javascript
+================================================================================
+
+I've been playing with using [JSDoc in my `.js` files][jsdoc-type-check] to get a TypeScript IDE
+experience in VSCode for my JavaScript development.  It's going pretty well.
+
+To enable type checking for JavaScript code (not enabled by default), go in your
+Settings, search for "javascript validate", and you'll find a setting 
+"JavaScript > Validate: Enable" which you should set to true.  The preferences
+file  setting is:
+
+    "javascript.validate.enable": true
+
+[jsdoc-type-check]: https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html
+
 changelog
 ================================================================================
 
